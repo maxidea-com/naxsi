@@ -194,7 +194,7 @@ typedef struct
   ngx_flag_t		args:1;
   /* match in [name] var of args */
   ngx_flag_t		args_var:1;
-  /* match on a global flag : weird_request, big_body etc. */
+  /* match on a global flag : big_body etc. */
   ngx_flag_t		flags:1;
   /* match on file upload extension */
   ngx_flag_t		file_ext:1;

@@ -39,14 +39,6 @@
 ** rules at any time ;)
 */
 
-ngx_http_rule_t nx_int__weird_request = {/*type*/ 0, /*whitelist flag*/ 0, 
-						/*wl_id ptr*/ NULL, /*rule_id*/ 1,
-						/*log_msg*/ NULL, /*score*/ 0, 
-						/*sscores*/ NULL,
-						/*sc_block*/ 0,  /*sc_allow*/ 0, 
-						/*block*/ 1,  /*allow*/ 0, /*drop*/ 0, /*log*/ 0,
-						/*br ptrs*/ NULL};
-
 ngx_http_rule_t nx_int__big_request = {/*type*/ 0, /*whitelist flag*/ 0, 
 				       /*wl_id ptr*/ NULL, /*rule_id*/ 2,
 				       /*log_msg*/ NULL, /*score*/ 0, 
